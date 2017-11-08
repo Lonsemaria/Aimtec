@@ -1,0 +1,11 @@
+c:\users\efe\documents\visual studio 2017\Projects\Krystra Mid Series\Krystra Mid Series\obj\Debug\Krystra Mid Series.csprojResolveAssemblyReference.cache
+C:\Users\efeekmen\Desktop\aimtec\Krystra Mid Series\Krystra Mid Series\bin\Debug\Krystra Mid Series.exe.config
+C:\Users\efeekmen\Desktop\aimtec\Krystra Mid Series\Krystra Mid Series\obj\Debug\Krystra Mid Series.csprojResolveAssemblyReference.cache
+C:\Users\efeekmen\Desktop\aimtec\Krystra Mid Series\Krystra Mid Series\bin\Debug\Krystra Mid Series.exe
+C:\Users\efeekmen\Desktop\aimtec\Krystra Mid Series\Krystra Mid Series\bin\Debug\Krystra Mid Series.pdb
+C:\Users\efeekmen\Desktop\aimtec\Krystra Mid Series\Krystra Mid Series\bin\Debug\Aimtec.dll
+C:\Users\efeekmen\Desktop\aimtec\Krystra Mid Series\Krystra Mid Series\bin\Debug\Aimtec.SDK.dll
+C:\Users\efeekmen\Desktop\aimtec\Krystra Mid Series\Krystra Mid Series\bin\Debug\NLog.dll
+C:\Users\efeekmen\Desktop\aimtec\Krystra Mid Series\Krystra Mid Series\bin\Debug\Newtonsoft.Json.dll
+C:\Users\efeekmen\Desktop\aimtec\Krystra Mid Series\Krystra Mid Series\obj\Debug\Krystra Mid Series.exe
+C:\Users\efeekmen\Desktop\aimtec\Krystra Mid Series\Krystra Mid Series\obj\Debug\Krystra Mid Series.pdb

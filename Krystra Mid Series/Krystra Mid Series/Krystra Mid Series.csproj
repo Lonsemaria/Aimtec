@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{63917FF4-1065-44A2-ADD5-FDDD56BA9B63}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Krystra_Mid_Series</RootNamespace>
+    <AssemblyName>Krystra Mid Series</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aimtec">
+      <HintPath>C:\Users\Efe\AppData\Local\AimtecLoader\Data\System\Aimtec.dll</HintPath>
+    </Reference>
+    <Reference Include="Aimtec.SDK">
+      <HintPath>C:\Users\Efe\AppData\Local\AimtecLoader\Data\System\Aimtec.SDK.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>C:\Users\Efe\AppData\Local\AimtecLoader\Data\System\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bootstrap.cs" />
+    <Compile Include="Champions\Orianna\Modes\Combo.cs" />
+    <Compile Include="Champions\Orianna\Modes\Escape.cs" />
+    <Compile Include="Champions\Orianna\Modes\Harass.cs" />
+    <Compile Include="Champions\Orianna\Modes\JungleClear.cs" />
+    <Compile Include="Champions\Orianna\Modes\KillSteal.cs" />
+    <Compile Include="Champions\Orianna\Modes\LaneClear.cs" />
+    <Compile Include="Champions\Orianna\Modes\LastHit.cs" />
+    <Compile Include="Champions\Orianna\Modes\Misc.cs" />
+    <Compile Include="Champions\Orianna\Orianna.cs" />
+    <Compile Include="Champions\Orianna\Utilities\Casting.cs" />
+    <Compile Include="Champions\Orianna\Utilities\Drawing.cs" />
+    <Compile Include="Champions\Orianna\Utilities\Events.cs" />
+    <Compile Include="Champions\Orianna\Utilities\Menu.cs" />
+    <Compile Include="Champions\Orianna\Utilities\Spells.cs" />
+    <Compile Include="Champions\Orianna\Utilities\Variables.cs" />
+    <Compile Include="Champions\Zed\Modes\AntiGap.cs" />
+    <Compile Include="Champions\Zed\Modes\Automatic.cs" />
+    <Compile Include="Champions\Zed\Modes\Combo.cs" />
+    <Compile Include="Champions\Zed\Modes\Escape.cs" />
+    <Compile Include="Champions\Zed\Modes\Harass.cs" />
+    <Compile Include="Champions\Zed\Modes\JungleClear.cs" />
+    <Compile Include="Champions\Zed\Modes\KillSteal.cs" />
+    <Compile Include="Champions\Zed\Modes\LaneClear.cs" />
+    <Compile Include="Champions\Zed\Modes\Lasthit.cs" />
+    <Compile Include="Champions\Zed\Modes\Misc.cs" />
+    <Compile Include="Champions\Zed\Utilities\Casting.cs" />
+    <Compile Include="Champions\Zed\Utilities\Drawings.cs" />
+    <Compile Include="Champions\Zed\Utilities\Events.cs" />
+    <Compile Include="Champions\Zed\Utilities\Menu.cs" />
+    <Compile Include="Champions\Zed\Utilities\Spells.cs" />
+    <Compile Include="Champions\Zed\Utilities\Variables.cs" />
+    <Compile Include="Champions\Zed\Zed.cs" />
+    <Compile Include="General\AntiGap.cs" />
+    <Compile Include="General\Constants.cs" />
+    <Compile Include="General\DamageIndicator.cs" />
+    <Compile Include="General\GameObjects.cs" />
+    <Compile Include="General\GeneralMenu.cs" />
+    <Compile Include="General\Geometries.cs" />
+    <Compile Include="General\Item.cs" />
+    <Compile Include="General\Language.cs" />
+    <Compile Include="General\SpellManager.cs" />
+    <Compile Include="General\TurretDive.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <EmbeddedResource Include="Json\Data.json" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
